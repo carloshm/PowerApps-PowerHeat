@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="chm" constructor="powerheat" version="0.0.1" display-name-key="PowerHeat" description-key="Power Apps Canvas control to include Microsoft Clarity as a HeatMap analytics provider" control-type="standard" >
+    <external-service-usage enabled="true">
+      <domain>www.clarity.ms</domain>
+    </external-service-usage>
+    <property name="ClarityProjectID" display-name-key="<Clarity-Project-ID>" description-key="Project ID value from Microsoft Clarity website" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <!-- UNCOMMENT TO ADD MORE RESOURCES
+      <css path="css/powerheat.css" order="1" />
+      <resx path="strings/powerheat.1033.resx" version="1.0.0" />
+      -->
+    </resources>
+  </control>
+</manifest>
