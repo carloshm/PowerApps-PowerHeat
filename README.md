@@ -28,12 +28,13 @@ The powerheat component is distributed as a .NET Tool from NuGet.org. The instal
 You can build the component from source code, following the [tutorial](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/implementing-controls-using-typescript?tabs=before). 
 
 On the other hand, you need to get a projectID from the Microsoft Clarity website.
-![image](https://github.com/carloshm/PowerApps-PowerHeat/assets/2389573/97c8d417-5dea-4db3-b1ea-74ce5928a023)
+<img width="800" alt="clarity website" src="https://github.com/carloshm/PowerApps-PowerHeat/assets/2389573/97c8d417-5dea-4db3-b1ea-74ce5928a023">
 
 Install manually to get the project clarity code:
-![image](https://github.com/carloshm/PowerApps-PowerHeat/assets/2389573/8d7afcef-cd65-4867-8b97-006ae07fb930)
+<img width="800" alt="clarity code" src="https://github.com/carloshm/PowerApps-PowerHeat/assets/2389573/8d7afcef-cd65-4867-8b97-006ae07fb930">
 
 and include it into the app:
+
 <img width="800" alt="adding component in a power apps" src="https://github.com/carloshm/PowerApps-PowerHeat/assets/2389573/9e9a1dea-5827-4bd4-8ee7-0027fdb45cd2">
 
 ## Getting Help
