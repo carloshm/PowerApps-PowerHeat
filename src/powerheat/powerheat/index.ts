@@ -42,9 +42,8 @@ export class powerheat implements ComponentFramework.StandardControl<IInputs, IO
         const headPage = document.getElementsByTagName('head')[0];
         const javaScript = document.createElement('script');
         const analysisTrackerDiv = "<div>Microsoft Clarity behavioral analysis tool in PowerApps</div>"
-        let projectID = "8z1ff7aibg";
 
-        javaScript.innerHTML = `(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "${projectID}");`
+        javaScript.innerHTML = '(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "<Clarity-Project-ID>");'
         headPage.insertBefore(javaScript, headPage.firstChild);
        
         this._analysisTrackerContainer = document.createElement("div");
