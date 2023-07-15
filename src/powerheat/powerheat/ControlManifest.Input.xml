@@ -4,7 +4,7 @@
     <external-service-usage enabled="true">
       <domain>www.clarity.ms</domain>
     </external-service-usage>
-    <property name="ClarityProjectID" display-name-key="<Clarity-Project-ID>" description-key="Project ID value from Microsoft Clarity website" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="ClarityProjectID" display-name-key="Clarity-Project-ID" description-key="Project ID value from Microsoft Clarity website" of-type="SingleLine.Text" usage="bound" required="true" />
     <resources>
       <code path="index.ts" order="1"/>
       <!-- UNCOMMENT TO ADD MORE RESOURCES
