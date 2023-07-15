@@ -34,6 +34,7 @@ Install manually to get the project clarity code:
 ![image](https://github.com/carloshm/PowerApps-PowerHeat/assets/2389573/8d7afcef-cd65-4867-8b97-006ae07fb930)
 
 and include it into the app:
+<img width="800" alt="adding component in a power apps" src="https://github.com/carloshm/PowerApps-PowerHeat/assets/2389573/9e9a1dea-5827-4bd4-8ee7-0027fdb45cd2">
 
 ## Getting Help
 For feature requests or issues using this tool please open an issue in this repository.
