@@ -9,7 +9,7 @@ This repository contains the PowerHeat, a component framework control to add Mic
 *Machine Learning Insights  
 *Heatmaps (or heat maps)
 
-A picure worhts a thousand words, so you can check how it looks like in the screenshot
+A picture is worth a thousand words, so you can check how it looks like in the screenshot
 
 <img src="ms-clarity.png" width="800" alt="Microsoft Clarity Screenshot" />
 
@@ -23,10 +23,17 @@ A picure worhts a thousand words, so you can check how it looks like in the scre
 
 The powerheat component is distributed as a .NET Tool from NuGet.org. The installation of the tool is managed with the dotnet CLI.
 
-### Installing easyplan
+### Installing PowerHeat
 
-You can build the component from source code, following the [tutorial](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/implementing-controls-using-typescript?tabs=before):
+You can build the component from source code, following the [tutorial](https://learn.microsoft.com/en-us/power-apps/developer/component-framework/implementing-controls-using-typescript?tabs=before). 
 
+On the other hand, you need to get a projectID from the Microsoft Clarity website.
+![image](https://github.com/carloshm/PowerApps-PowerHeat/assets/2389573/97c8d417-5dea-4db3-b1ea-74ce5928a023)
+
+Install manually to get the project clarity code:
+![image](https://github.com/carloshm/PowerApps-PowerHeat/assets/2389573/8d7afcef-cd65-4867-8b97-006ae07fb930)
+
+and include it into the app:
 
 ## Getting Help
 For feature requests or issues using this tool please open an issue in this repository.
